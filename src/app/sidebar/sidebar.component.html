@@ -1,0 +1,32 @@
+<mat-drawer-container class="container">
+    <mat-drawer mode="side" opened>
+        <mat-nav-list [disableRipple]="true">
+            <!--The width of icon is 24 + 16 + 16 = 56-->
+            <a mat-list-item [disableRipple]="true" [routerLink]="'/'">
+                <mat-icon>home</mat-icon>
+            </a>
+            <a mat-list-item [routerLink]="'/'">
+                <mat-icon>dashboard</mat-icon>
+            </a>
+            <a mat-list-item [routerLink]="'/'">
+                <mat-icon>view_list</mat-icon>
+            </a>
+            <a mat-list-item [routerLink]="'/'">
+                <mat-icon>local_shipping</mat-icon>
+            </a>
+            <a mat-list-item [routerLink]="'/'">
+                <mat-icon>help_center</mat-icon>
+            </a>
+            <a mat-list-item [routerLink]="'/'">
+                <mat-icon>health_and_safety</mat-icon>
+            </a>
+        </mat-nav-list>
+        
+
+    </mat-drawer>
+    <mat-drawer-content style="padding:'20px'">
+        TMNA Vehicle Pipeline
+        
+    </mat-drawer-content>
+</mat-drawer-container>
+  
